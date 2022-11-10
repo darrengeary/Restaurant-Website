@@ -358,3 +358,24 @@ h3 {
 .no-deco {
   text-decoration: none;
 }
+.custom-flex {
+  flex-wrap: inherit;
+}
+
+@media (max-width: 399px) {
+  .hide-small {
+    display: none !important;
+  }
+}
+.view-small {
+  margin-top: -4% !important;
+  justify-content: center !important;
+}
+@media (min-width: 400px) {
+  .view-small {
+    display: none !important;
+  }
+}
+.pos-rel {
+  position: inherit !important;
+}
